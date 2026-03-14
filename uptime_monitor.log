@@ -1,0 +1,188 @@
+2026-03-13 15:49:46,531 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 15:49:46,670 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 15:49:46,794 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 15:49:57,664 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 15:49:57,752 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 15:49:57,856 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 15:50:08,602 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 15:50:08,703 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 15:50:08,789 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:07:34,105 - ERROR - ERROR: Could not reach http://www.example.com/nonexistentpage | HTTPConnectionPool(host='www.example.com', port=80): Max retries exceeded with url: /nonexistentpage (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x70f9503df620>: Failed to resolve 'www.example.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-13 17:07:34,113 - ERROR - ERROR: Could not reach http://httpstat.us/404 | HTTPConnectionPool(host='httpstat.us', port=80): Max retries exceeded with url: /404 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x70f9502122a0>: Failed to resolve 'httpstat.us' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-13 17:07:34,121 - ERROR - ERROR: Could not reach http://httpstat.us/500 | HTTPConnectionPool(host='httpstat.us', port=80): Max retries exceeded with url: /500 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x70f950211be0>: Failed to resolve 'httpstat.us' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-13 17:07:34,133 - ERROR - ERROR: Could not reach https://www.google.com/ | HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x70f950d22bd0>: Failed to resolve 'www.google.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-13 17:07:53,715 - ERROR - ERROR: Could not reach http://www.example.com/nonexistentpage | HTTPConnectionPool(host='www.example.com', port=80): Max retries exceeded with url: /nonexistentpage (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x70f950211d90>: Failed to resolve 'www.example.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-13 17:07:53,718 - ERROR - ERROR: Could not reach http://httpstat.us/404 | HTTPConnectionPool(host='httpstat.us', port=80): Max retries exceeded with url: /404 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x70f950211940>: Failed to resolve 'httpstat.us' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-13 17:07:53,720 - ERROR - ERROR: Could not reach http://httpstat.us/500 | HTTPConnectionPool(host='httpstat.us', port=80): Max retries exceeded with url: /500 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x70f950212ba0>: Failed to resolve 'httpstat.us' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-13 17:07:53,723 - ERROR - ERROR: Could not reach https://www.google.com/ | HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x70f950213470>: Failed to resolve 'www.google.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-13 17:08:03,972 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:08:04,066 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:08:04,150 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:08:15,025 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:08:15,108 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:08:15,237 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:08:25,945 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:08:26,273 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:08:26,355 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:08:37,525 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:08:37,619 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:08:37,699 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:08:48,469 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:08:48,565 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:08:48,661 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:08:59,493 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:08:59,587 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:08:59,784 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:09:20,793 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:09:20,875 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:09:20,970 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:09:31,715 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:09:31,984 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:09:32,143 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:09:42,968 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:09:43,071 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:09:43,156 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:09:53,863 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:09:53,948 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:09:54,031 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:10:04,649 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:10:04,956 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:10:05,037 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:10:15,611 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:10:15,713 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:10:15,822 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:10:26,467 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:10:26,549 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:10:26,644 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:10:37,238 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:10:37,322 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:10:37,403 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:10:42,957 - ERROR - ERROR: Could not reach https://www.google.com/ | HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+2026-03-13 17:10:53,008 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:10:53,030 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:10:53,045 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:11:03,690 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:11:03,710 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:11:03,729 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:11:14,379 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:11:14,395 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:11:14,412 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:11:25,049 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:11:25,064 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:11:25,083 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:11:36,017 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:11:36,038 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:11:36,056 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:11:46,700 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:11:46,717 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:11:46,733 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:11:57,355 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:11:57,383 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:11:57,402 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:12:02,974 - ERROR - ERROR: Could not reach https://www.google.com/ | HTTPSConnectionPool(host='www.google.com', port=443): Read timed out.
+2026-03-13 17:12:13,045 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:12:13,077 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:12:13,118 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:12:23,908 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:12:24,056 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:12:24,074 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:12:34,689 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:12:34,709 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:12:34,730 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:12:46,368 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:12:46,434 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:12:46,458 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:12:57,128 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:12:57,155 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:12:57,175 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:13:07,831 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:13:07,851 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:13:07,879 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:13:18,529 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:13:18,551 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:13:18,568 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:13:29,204 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:13:29,223 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:13:29,241 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:13:39,876 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:13:39,894 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:13:39,916 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:13:50,484 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:13:50,504 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:13:50,523 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:14:01,129 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:14:01,146 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:14:01,165 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:14:11,803 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:14:11,821 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:14:11,837 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:14:22,465 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:14:22,488 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:14:22,602 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:20:40,853 - ERROR - ERROR: Could not reach https://www.google.com/ | HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=5)
+2026-03-13 17:20:51,002 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:20:51,088 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:20:51,237 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 17:21:01,918 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-13 17:21:02,016 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-13 17:21:02,111 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-13 22:29:05,375 - ERROR - ERROR: Could not reach http://www.example.com/nonexistentpage | HTTPConnectionPool(host='www.example.com', port=80): Max retries exceeded with url: /nonexistentpage (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x70f950213dd0>: Failed to resolve 'www.example.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-13 22:29:05,379 - ERROR - ERROR: Could not reach http://httpstat.us/404 | HTTPConnectionPool(host='httpstat.us', port=80): Max retries exceeded with url: /404 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x70f950211370>: Failed to resolve 'httpstat.us' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-13 22:29:05,381 - ERROR - ERROR: Could not reach http://httpstat.us/500 | HTTPConnectionPool(host='httpstat.us', port=80): Max retries exceeded with url: /500 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x70f950212900>: Failed to resolve 'httpstat.us' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-13 22:29:05,384 - ERROR - ERROR: Could not reach https://www.google.com/ | HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x70f950213fb0>: Failed to resolve 'www.google.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-13 22:29:15,444 - ERROR - ERROR: Could not reach http://www.example.com/nonexistentpage | HTTPConnectionPool(host='www.example.com', port=80): Max retries exceeded with url: /nonexistentpage (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x70f950212bd0>: Failed to resolve 'www.example.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-13 22:29:15,449 - ERROR - ERROR: Could not reach http://httpstat.us/404 | HTTPConnectionPool(host='httpstat.us', port=80): Max retries exceeded with url: /404 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x70f950211b20>: Failed to resolve 'httpstat.us' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-13 22:29:15,454 - ERROR - ERROR: Could not reach http://httpstat.us/500 | HTTPConnectionPool(host='httpstat.us', port=80): Max retries exceeded with url: /500 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x70f950213890>: Failed to resolve 'httpstat.us' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-13 22:29:15,459 - ERROR - ERROR: Could not reach https://www.google.com/ | HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x70f950213350>: Failed to resolve 'www.google.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-14 13:36:17,093 - ERROR - ERROR: Could not reach http://www.example.com/nonexistentpage | HTTPConnectionPool(host='www.example.com', port=80): Max retries exceeded with url: /nonexistentpage (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x70f950213b00>: Failed to resolve 'www.example.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-14 13:36:17,107 - ERROR - ERROR: Could not reach http://httpstat.us/404 | HTTPConnectionPool(host='httpstat.us', port=80): Max retries exceeded with url: /404 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x70f9501ddbe0>: Failed to resolve 'httpstat.us' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-14 13:36:17,112 - ERROR - ERROR: Could not reach http://httpstat.us/500 | HTTPConnectionPool(host='httpstat.us', port=80): Max retries exceeded with url: /500 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x70f950533050>: Failed to resolve 'httpstat.us' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-14 13:36:17,118 - ERROR - ERROR: Could not reach https://www.google.com/ | HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x70f950212060>: Failed to resolve 'www.google.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-03-14 13:36:27,343 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-14 13:36:42,358 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-14 13:36:47,365 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-14 13:36:57,958 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-14 13:37:02,965 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-14 13:37:07,973 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-14 13:37:18,581 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-14 13:37:23,589 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-14 13:37:28,595 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-14 13:37:39,290 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-14 13:37:44,296 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-14 13:37:49,302 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-14 13:37:59,973 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-14 13:38:04,979 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-14 13:38:09,984 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-14 13:38:20,551 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-14 13:38:25,558 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-14 13:38:30,563 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-14 13:38:41,271 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-14 13:38:46,278 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-14 13:38:51,284 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-14 13:39:01,867 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-14 13:39:06,873 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-14 13:39:11,879 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-14 13:39:22,552 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-14 13:39:27,558 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-14 13:39:32,563 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-14 13:39:43,174 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-14 13:39:48,182 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-14 13:39:53,187 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-14 13:40:03,797 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-14 13:40:08,802 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-14 13:40:13,807 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-14 13:40:24,370 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-14 13:40:29,378 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-14 13:40:34,386 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-14 13:40:44,997 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-14 13:40:50,002 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-14 13:40:55,007 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-14 13:41:06,067 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-14 13:41:11,075 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-14 13:41:16,081 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-14 13:41:27,072 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-14 13:41:32,087 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-14 13:41:37,096 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
+2026-03-14 13:41:47,761 - WARNING - ALERT: 4xx error encountered for URL: http://www.example.com/nonexistentpage
+2026-03-14 13:41:52,766 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/404
+2026-03-14 13:41:57,771 - WARNING - ALERT: 4xx error encountered for URL: http://httpstat.us/500
